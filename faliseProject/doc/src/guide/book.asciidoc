@@ -1,0 +1,83 @@
+// a2x: --dblatex-opts "-P latex.output.revhistory=0 -P doc.publisher.show=0 -P index.numbered=0"
+// a2x: --xsltproc-opts "--stringparam use.id.as.filename 1"
+// a2x: -d book --attribute tabsize=4
+
+= Erlang.mk User Guide
+Loïc Hoguin <essen@ninenines.eu>
+
+include::installation.asciidoc[Installation]
+
+include::getting_started.asciidoc[Getting started]
+
+include::overview.asciidoc[Overview]
+
+include::updating.asciidoc[Updating Erlang.mk]
+
+include::limitations.asciidoc[Limitations]
+
+[[code]]
+= Code
+
+include::app.asciidoc[Building]
+
+include::deps.asciidoc[Packages and dependencies]
+
+include::ports.asciidoc[NIFs and port drivers]
+
+include::releases.asciidoc[Releases]
+
+include::sfx.asciidoc[Self-extracting releases]
+
+include::escripts.asciidoc[Escripts]
+
+include::kerl.asciidoc[OTP version management]
+
+include::cross_compiling.asciidoc[Cross compiling]
+
+include::compat.asciidoc[Compatibility with other build tools]
+
+[[docs]]
+= Documentation
+
+include::asciidoc.asciidoc[Asciidoc documentation]
+
+include::edoc.asciidoc[EDoc comments]
+
+include::sphinx.asciidoc[Sphinx documentation]
+
+[[tests]]
+= Tests
+
+include::shell.asciidoc[Erlang shell]
+
+include::eunit.asciidoc[EUnit]
+
+include::common_test.asciidoc[Common Test]
+
+include::proper.asciidoc[PropEr]
+
+include::triq.asciidoc[Triq]
+
+include::coverage.asciidoc[Code coverage]
+
+include::ci.asciidoc[Continuous integration]
+
+include::dialyzer.asciidoc[Dialyzer]
+
+include::xref.asciidoc[Xref]
+
+[[plugins]]
+= Third-party plugins
+
+include::external_plugins.asciidoc[External plugins]
+
+include::external_plugins_list.asciidoc[List of plugins]
+
+[[about]]
+= About Erlang.mk
+
+include::why.asciidoc[Why erlang.mk?]
+
+include::history.asciidoc[Short history]
+
+include::contributing.asciidoc[Contributing]
